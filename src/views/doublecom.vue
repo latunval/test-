@@ -4,13 +4,14 @@
       heading="Fastest way to organize"
       description="Most calendars are designed for teams.<br>Slate is designed for freelancers"
       buttonText="Try For Free"
-      image="@/assets/images/computer.png"
+      :image="computerImage"
     />
 
     <twoway
       heading="At your fingertips<br>Lightning fast prototyping"
       description="Subscribe to our Newsletter<br><small>Available exclusively on Figmaland</small>"
-      image="@/assets/images/newsletter.png"
+      :image="newsletterImage"
+      :reverse="true"
     >
       <template #custom>
         <form style="margin-top: 16px">
@@ -24,15 +25,28 @@
       </template>
     </twoway>
   </div>
+  <!-- <img src="../assets/images/" alt=""> -->
+   <!-- <img src="../assets/images/newletter.png" alt=""> -->
 </template>
 
 <script>
-import twoway from './twoway.vue'
+import twoway from '../components/twoway.vue'
+import computerImage from '../assets/images/computer.png'
+import newsletterImage from '../assets/images/newletter.png'
+
 export default {
   components: {
     twoway,
   },
+  data() {
+    return {
+      computerImage,
+      newsletterImage,
+    }
+  },
 }
 </script>
 
-<style  scoped></style>
+<style scoped>
+
+</style>
