@@ -33,14 +33,14 @@ export default {
   /* border: 1px solid; */
   width: 100%;
   margin: 20px 0px;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+font-size: 30px;
 }
 #organise1,
 #organise2 {
   width: 50%;
+  padding: 20px;
   /* border: 1px solid green; */
 }
 .base-btn {
@@ -59,6 +59,20 @@ export default {
   flex-direction: row-reverse;
 }
 img{
-  width: 250px;
+  width: 350px;
+}
+@media screen and (max-width:700px) {
+    #organisesection{
+        flex-direction: column;
+        font-size: 26px;
+    }
+    #organise1,
+#organise2{
+    width: 97%;
+    padding: 10px;
+}
+img{
+    width: 250px;
+}
 }
 </style>
