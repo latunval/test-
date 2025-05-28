@@ -1,7 +1,10 @@
 <template>
+
   <price />
   <contact />
   <footers />
+
+  <RouterView />
 </template>
 
 <script>
