@@ -1,6 +1,7 @@
 <template>
-    <price />
-    <contact/>
+  <price />
+  <contact />
+  <footers />
 </template>
 
 <script>
