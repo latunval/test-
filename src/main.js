@@ -1,10 +1,10 @@
 // import './assets/main.css'
 
 import { createApp } from 'vue'
-// import { createPinia } from 'pinia'
+import { createPinia } from 'pinia'
 
 import App from './App.vue'
-import router from './router'
+// import router from './router/index.js'
 import Partner from '../src/components/partnerViews.vue'
 import Header from '../src/components/Header.vue'
 import NavBar from '../src/components/NavBar.vue'
@@ -29,6 +29,6 @@ app.component('nav-bar', NavBar)
 app.component('price', Pricing)
 app.component('contact', Contact)
 app.component('footers', Footer)
-app.use(router)
+// app.use(router)
 
 app.mount('#app')
