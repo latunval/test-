@@ -3,6 +3,8 @@
 <features />
   <price />
   <RouterView />
+  <partner />
+  <testimonial-view />
   <contact />
   <footers />
 
