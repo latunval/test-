@@ -18,7 +18,7 @@
           <input
             type="email"
             placeholder="Your Email"
-            style="padding: 8px 12px; border-radius: 20px; border: 1px solid #ccc"
+            style="padding: 8px 10px; border-radius: 20px; border: 1px solid #ccc"
           />
           <button class="base-btn" type="submit" style="margin-left: 8px">Subscribe</button>
         </form>

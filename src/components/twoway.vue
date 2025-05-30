@@ -46,7 +46,7 @@ font-size: 30px;
 .base-btn {
   width: 140px;
   padding: 10px 0;
-  background: #2563eb;
+  background: #2563eb !important  ;
   color: #fff;
   border: none;
   border-radius: 25px;

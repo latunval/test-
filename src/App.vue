@@ -1,10 +1,11 @@
 <template>
-
+<headers />
+<features />
   <price />
+  <RouterView />
   <contact />
   <footers />
 
-  <RouterView />
 </template>
 
 <script>

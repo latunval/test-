@@ -70,6 +70,11 @@ export default {}
     justify-content: space-evenly;
     padding: 30px;
 }
+@media screen and (max-width:768px) {
+    .footer{
+        flex-direction: column;
+    }
+}
 p{
     color: #fff;
 }
